@@ -7,16 +7,16 @@
 </head>
 <body>
    <header>
-<menu>
+    <menu>
     <div class = "menu-izquierda">
         <h1> Tercera 1</h1>
-    </div>
+        <img src="https://i.pinimg.com/1200x/cd/86/f2/cd86f270bb6d37d996af8bc15d1a77f8.jpg" alt="logo" 
+        width="250px" height="230px">
+</div>
     <div class = "menu-derecha">
-        <a href="index.php">Inicio</a>
-        <a href="index.php">Detalles</a>
-        <a href="index.php">Contacto</a>
+        <a href="./inicio.php">Inicio</a>
+        <a href="./contactenos.php">contacto</a>
+        <a href="./Dirección.php">Dirección</a>
     </div>
 </menu>
-
-
-</header>
+</header>   

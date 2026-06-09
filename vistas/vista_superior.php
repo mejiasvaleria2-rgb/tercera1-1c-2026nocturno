@@ -16,7 +16,7 @@
 </div>
     <div class = "menu-derecha">
         <a href="./inicio.php">Inicio</a>
-        <a href="./contactenos.php">contacto</a>
+        <a href="./contactenos.php">contactenos</a>
         <a href="./Dirección.php">Dirección</a>
     </div>
 </menu>

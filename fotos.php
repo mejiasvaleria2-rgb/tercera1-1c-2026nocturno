@@ -1,6 +1,5 @@
 <?php  require_once "./vistas/vista_superior.php"?>
 
-
-<h1> Contactenos </h1> 
+<h1> Fotos </h1>
 
 <?php  require_once "./vistas/vista_inferior.php"?>

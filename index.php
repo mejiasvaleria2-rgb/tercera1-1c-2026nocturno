@@ -2,4 +2,5 @@
 
 <h1> Inicio </h1>
 
+
 <?php  require_once "./vistas/vista_inferior.php"?>

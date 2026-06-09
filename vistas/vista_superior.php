@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="css/main.css">
     <title> Tercera 1</title>
 </head>
 <body>
@@ -16,8 +17,10 @@
 </div>
     <div class = "menu-derecha">
         <a href="./inicio.php">Inicio</a>
-        <a href="./contactenos.php">contactenos</a>
+        <a href="./Contactenos.php">Contactenos</a>
         <a href="./Dirección.php">Dirección</a>
+        <a href="./fotos.php">Fotos</a>
+        
     </div>
 </menu>
 </header>   

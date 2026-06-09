@@ -16,10 +16,10 @@
         width="250px" height="210px"> 
 </div>
     <div class = "menu-derecha">
-        <a href="./inicio.php">Inicio</a>
-        <a href="./Contactenos.php">Contactenos</a>
-        <a href="./Dirección.php">Dirección</a>
-        <a href="./fotos.php">Fotos</a>
+        <a href="./inicio.php">inicio</a>
+        <a href="./contactenos.php">contactenos</a>
+        <a href="./dirección.php">dirección</a>
+        <a href="./fotos.php">fotos</a>
         
     </div>
 </menu>

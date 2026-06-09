@@ -1,8 +1,8 @@
 <?php  require_once "./vistas/vista_superior.php"?>
 
 <h1> 
-    <inicio></inicio>
-<contactenos></contactenos>
+    <Inicio></Inicio>
+<Contactenos></Contactenos>
 <Dirección></Dirección>
 
 </h1>

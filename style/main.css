@@ -140,3 +140,35 @@ main {
         display: block;
     }
 }
+
+
+/* PRUEBA DISEÑOS */
+
+/* GALERÍA */
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;        /* permite que las imágenes bajen en pantallas pequeñas */
+  justify-content: center;
+  gap: 15px;              /* espacio entre imágenes */
+}
+
+.galeria img {
+  max-width: 300px;       /* tamaño máximo en pantallas grandes */
+  width: 100%;            /* ocupa todo el ancho disponible del contenedor */
+  height: auto;           /* mantiene proporción */
+  border-radius: 8px;     /
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  .galeria img {
+    max-width: 45%;       
+  }
+}
+
+@media (max-width: 480px) {
+  .galeria img {
+    max-width: 90%;       
+  }
+}

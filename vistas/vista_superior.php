@@ -1,23 +1,43 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Tercera 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title> Tercera 1</title>
+    <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
-   <header>
+
+<header>
     <menu>
-    <div class = "menu-izquierda">
-        <h1> Grotescas </h1>
-        <img src="https://i.pinimg.com/1200x/cd/86/f2/cd86f270bb6d37d996af8bc15d1a77f8.jpg" alt="logo" 
-        width="250px" height="210px"> 
-</div>
-    <div class = "menu-derecha">
-        <a href="./inicio.php">Inicio</a>
-        <a href="./contactenos.php">contactenos</a>
-        <a href="./Dirección.php">Dirección</a>
-    </div>
-</menu>
-</header>   
+        <div class="menu-izquierda">
+            <h1>Grotescas</h1>
+            <img src="https://i.pinimg.com/1200x/cd/86/f2/cd86f270bb6d37d996af8bc15d1a77f8.jpg" alt="Pantera">
+        </div>
+
+        <!-- Ícono hamburguesa -->
+        <div class="menu-container">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Menú de enlaces -->
+        <div class="menu-derecha">
+            <a href="./inicio.php">Inicio</a>
+            <a href="./contactenos.php">Contacto</a>
+            <a href="./direccion.php">Ubicación</a>
+            <a href="./fotos.php">Diseños</a>
+        </div>
+    </menu>
+</header>
+
+<main>
+    <h2>Bienvenido a Grotescas</h2>
+</main>
+
+<script src="./script/hamburger-icon.js"></script>
+</body>
+</html>

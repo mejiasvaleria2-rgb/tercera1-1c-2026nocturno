@@ -7,20 +7,37 @@
     <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
+
 <header>
     <menu>
         <div class="menu-izquierda">
             <h1>Grotescas</h1>
-            <img
-                src="https://i.pinimg.com/1200x/cd/86/f2/cd86f270bb6d37d996af8bc15d1a77f8.jpg"
-                alt="Pantera">
+            <img src="https://i.pinimg.com/1200x/cd/86/f2/cd86f270bb6d37d996af8bc15d1a77f8.jpg" alt="Pantera">
         </div>
+
+        <!-- Ícono hamburguesa -->
+        <div class="menu-container">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Menú de enlaces -->
         <div class="menu-derecha">
             <a href="./inicio.php">Inicio</a>
-            <a href="./contactenos.php">Diseños</a>
+            <a href="./contactenos.php">Contacto</a>
             <a href="./direccion.php">Ubicación</a>
-            <a href="./fotos.php">Galería</a>
+            <a href="./fotos.php">Diseños</a>
         </div>
     </menu>
 </header>
+
 <main>
+    <h2>Bienvenido a Grotescas</h2>
+</main>
+
+<script src="./script/hamburger-icon.js"></script>
+</body>
+</html>

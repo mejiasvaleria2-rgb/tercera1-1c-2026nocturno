@@ -47,7 +47,7 @@ menu {
 }
 
 .menu-derecha a {
-    color: rgb(172, 119, 4);
+    color: rgb(243, 239, 240);
     text-decoration: none;
     font-size: 20px;
 
@@ -55,7 +55,7 @@ menu {
 }
 
 .menu-derecha a:hover {
-    color: rgb(28, 201, 28);
+    color: rgb(150, 136, 12);
     transform: scale(1.2);
 }
 
